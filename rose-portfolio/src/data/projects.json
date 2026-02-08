@@ -1,0 +1,42 @@
+[
+  {
+    "id": "movement-box",
+    "title": "The Movement Box Package Design",
+    "category": "Uni Projects",
+    "image": "/projects/movement-box.jpg",
+    "description": "A detailed description of The Movement Box package design project. Add information about the design process, inspiration, and final outcome.",
+    "details": "Extended details about the project can go here. Include challenges faced, solutions implemented, and key learnings."
+  },
+  {
+    "id": "scottish-indie",
+    "title": "Scottish Indie Coffee Kitchen Rebrand",
+    "category": "Uni Projects",
+    "image": "/projects/scottish-indie.jpg",
+    "description": "A rebranding project for Scottish Indie Coffee Kitchen. Describe the brand identity work, visual elements, and overall concept.",
+    "details": "More detailed information about the rebranding process, color choices, typography, and brand guidelines."
+  },
+  {
+    "id": "wild-bird-facade",
+    "title": "Wild Bird Facade Redesign Project",
+    "category": "Uni Projects",
+    "image": "/projects/wild-bird.jpg",
+    "description": "A facade redesign project exploring architectural and design principles.",
+    "details": "Detailed breakdown of the design approach, materials, and creative decisions."
+  },
+  {
+    "id": "plant-your-patch",
+    "title": "Plant Your Patch Campaign (OUGD)",
+    "category": "Uni Projects",
+    "image": "/projects/plant-your-patch.jpg",
+    "description": "A campaign design project focused on urban gardening and community engagement.",
+    "details": "Information about campaign strategy, visual identity, and implementation."
+  },
+  {
+    "id": "wayfinding",
+    "title": "Wayfinding Way - Brand Identity & Wayfinding",
+    "category": "Uni Projects",
+    "image": "/projects/wayfinding.jpg",
+    "description": "A comprehensive wayfinding and brand identity project.",
+    "details": "Details about signage design, navigation systems, and brand consistency."
+  }
+]
