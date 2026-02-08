@@ -1,5 +1,5 @@
 .home {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
   padding: 2rem;
 }
@@ -49,6 +49,34 @@
 
 .projects-section {
   margin-top: 4rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  padding: 3rem 2rem;
+  background-image: url('/Portfolio/projects/background.png');
+  background-repeat: repeat-y;
+  background-size: 100%;
+  position: relative;
+  /* width: calc(100% + 4rem); */
+}
+
+.projects-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.85);
+  z-index: 0;
+}
+
+.projects-section h2,
+.projects-grid {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .projects-section h2 {
