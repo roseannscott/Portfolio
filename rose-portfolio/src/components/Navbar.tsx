@@ -5,7 +5,8 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-brand">
-        <Link to="/">Rose-Ann</Link>
+        <Link to="/" className='blueName'>Rose-Ann</Link>
+        <Link to="/" className='whiteName'>Scott</Link>
       </div>
       <ul className="nav-links">
         <li><Link to="/">Work</Link></li>

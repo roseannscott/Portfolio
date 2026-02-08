@@ -2,19 +2,39 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 3rem;
-  background-color: rgba(255, 182, 193, 0.3);
-  position: sticky;
+  padding: 2.5rem 10rem;
+  background-color: rgba(255, 182, 193, 0.7);
   top: 0;
   z-index: 100;
   backdrop-filter: blur(10px);
+  border-radius: 0 0 75% 75%;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.nav-brand a {
+.nav-brand {
   font-size: 1.5rem;
   font-weight: bold;
   color: #333;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.nav-brand a {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.nav-brand .blueName {
+  color: #7a8fb8;
+}
+
+.nav-brand .whiteName {
+  color: #fff;
 }
 
 .nav-links {
