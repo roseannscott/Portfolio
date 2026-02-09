@@ -35,16 +35,42 @@
 .hero h1 {
   font-size: 4rem;
   margin-bottom: 1rem;
-  color: #7a8fb8;
-  font-weight: 300;
+  color: #7F87A7;
+  font-weight: bold;
+  text-align: left;
+}
+
+.hero p {
+  margin-bottom: 1rem;
+  text-align: left;
 }
 
 .intro {
   max-width: 600px;
-  margin: 0 auto;
   color: #666;
   font-size: 1.1rem;
   line-height: 1.8;
+}
+
+.portfolio-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  margin-left: auto;
+  max-width: fit-content;
+}
+
+.portfolio-intro .intro {
+  position: relative;
+  padding-left: 20px;
+}
+
+.portfolio-intro .intro .bullet {
+  position: absolute;
+  left: 0;
+  color: #7F87A7;
+  font-size: 1.2em;
 }
 
 .projects-section {
@@ -52,7 +78,7 @@
   margin-left: -2rem;
   margin-right: -2rem;
   padding: 3rem 2rem;
-  background-image: url('/Portfolio/projects/background.png');
+  background-image: url('/Portfolio/projects/leaf_pattern_bw.png');
   background-repeat: repeat-y;
   background-size: 100%;
   position: relative;

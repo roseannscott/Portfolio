@@ -9,10 +9,13 @@ function Home() {
         <div className="hero-background">
           <span className="watermark">RS</span>
         </div>
-        <h1>Portfolio</h1>
-        <p className="intro">
-          My name is Rose-Ann. I'm a graphic designer and hobbyist illustrator, based in VIC Gippsland, focusing on branding and concept designing.
-        </p>
+        <div className="portfolio-intro">
+          <h1>Portfolio</h1>
+          <p className="intro">
+            <span className="bullet">•</span>
+            My name is Rose-Ann, I'm a graphic designer and hobbyist illustrator based in VIC Gippsland, focusing on branding and concept designing.
+          </p>
+        </div>
       </section>
 
       <section className="projects-section">

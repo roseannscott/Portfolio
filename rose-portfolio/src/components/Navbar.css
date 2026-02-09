@@ -30,7 +30,7 @@
 }
 
 .nav-brand .blueName {
-  color: #7a8fb8;
+  color: #7F87A7;
 }
 
 .nav-brand .whiteName {
@@ -43,17 +43,18 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  color: #7F87A7;
 }
 
 .nav-links a {
-  color: #333;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: #d4758f;
+  color: #fff;
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
