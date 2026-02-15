@@ -7,7 +7,10 @@ function Home() {
     <div className="home">
       <section className="hero">
         <div className="portfolio-intro">
-          <h1>Portfolio</h1>
+          <h1>
+            <span className="portfolio-title">Portfolio</span>
+            <span className="portfolio-year" aria-hidden="true">26</span>
+          </h1>
           <p className="intro">
             <span className="bullet">•</span>
             My name is Rose-Ann, I'm a graphic designer and hobbyist illustrator based in VIC Gippsland, focusing on branding and concept designing.
