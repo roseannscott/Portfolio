@@ -2,11 +2,13 @@
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin: 4rem 0;
-  padding: 2rem;
+  margin: 4.5rem 0;
+  padding: 2.25rem 3rem;
   position: relative;
   align-self: flex-start;
-  border-radius: 30px;
+  width: min(88vw, 980px);
+  border-radius: 0 999px 999px 0;
+  margin-left: -6rem;
   background-color: var(--color-pink);
   transition: transform 0.3s ease;
 }
@@ -18,23 +20,26 @@
 .project-card.reversed {
   flex-direction: row-reverse;
   align-self: flex-end;
+  border-radius: 999px 0 0 999px;
+  margin-left: 0;
+  margin-right: -6rem;
   background-color: var(--color-blue);
 }
 
 .project-card::after {
   content: '';
   position: absolute;
-  left: 2rem;
-  bottom: -0.75rem;
-  height: 0.4rem;
+  right: 5rem;
+  bottom: -1.4rem;
+  height: 0.65rem;
   width: 55%;
   border-radius: 999px;
   background-color: var(--color-blue);
 }
 
 .project-card.reversed::after {
-  left: auto;
-  right: 2rem;
+  right: auto;
+  left: 5rem;
   background-color: var(--color-pink);
 }
 
@@ -102,6 +107,10 @@
   .project-card.reversed {
     flex-direction: column;
     align-self: stretch;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 32px;
   }
 
   .project-card::after,
