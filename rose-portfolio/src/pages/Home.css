@@ -16,7 +16,7 @@
 .hero h1 {
   font-size: 4rem;
   margin-bottom: 1rem;
-  color: #7F87A7;
+  color: var(--color-blue);
   font-weight: bold;
   text-align: left;
 }
@@ -28,7 +28,7 @@
 
 .intro {
   max-width: 600px;
-  color: #F7C3C9;
+  color: var(--color-pink);
   font-size: 1.1rem;
   line-height: 1.8;
 }
@@ -51,10 +51,9 @@
   position: absolute;
   left: 0;
   top: -0.25em;
-  /* color: #F7C3C9; */
   font-size: 3.2em;
   line-height: 1;
-  color: #7F87A7;
+  color: var(--color-blue);
 }
 
 .projects-section {

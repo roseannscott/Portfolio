@@ -3,8 +3,12 @@
   line-height: 1.5;
   font-weight: 400;
 
+  --color-blue: #7F87A7;
+  --color-pink: #F7C3C9;
+  --color-white: #ffffff;
+
   color: #333;
-  background-color: #ffffff;
+  background-color: var(--color-white);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,7 +25,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background: linear-gradient(to bottom, #ffffff 0%, #fef5f7 100%);
+  background: linear-gradient(to bottom, var(--color-white) 0%, #fef5f7 100%);
 }
 
 h1, h2, h3, h4, h5, h6 {
