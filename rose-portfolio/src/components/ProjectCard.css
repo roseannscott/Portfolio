@@ -4,8 +4,10 @@
   gap: 2rem;
   margin: 4rem 0;
   padding: 2rem;
+  position: relative;
+  align-self: flex-start;
   border-radius: 30px;
-  background: linear-gradient(135deg, rgba(255, 182, 193, 0.2), rgba(176, 196, 222, 0.2));
+  background-color: var(--color-pink);
   transition: transform 0.3s ease;
 }
 
@@ -15,7 +17,25 @@
 
 .project-card.reversed {
   flex-direction: row-reverse;
-  background: linear-gradient(135deg, rgba(176, 196, 222, 0.2), rgba(255, 182, 193, 0.2));
+  align-self: flex-end;
+  background-color: var(--color-blue);
+}
+
+.project-card::after {
+  content: '';
+  position: absolute;
+  left: 2rem;
+  bottom: -0.75rem;
+  height: 0.4rem;
+  width: 55%;
+  border-radius: 999px;
+  background-color: var(--color-blue);
+}
+
+.project-card.reversed::after {
+  left: auto;
+  right: 2rem;
+  background-color: var(--color-pink);
 }
 
 .project-image-container {
@@ -40,33 +60,55 @@
 .project-info h3 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: #333;
+  color: var(--color-blue);
 }
 
 .project-info p {
-  color: #666;
+  color: var(--color-blue);
   line-height: 1.6;
   margin-bottom: 1.5rem;
+}
+
+.project-card.reversed .project-info h3,
+.project-card.reversed .project-info p {
+  color: var(--color-pink);
 }
 
 .see-project-btn {
   display: inline-block;
   padding: 0.8rem 2rem;
-  background-color: #7a8fb8;
-  color: white;
+  background-color: transparent;
+  color: var(--color-blue);
+  border: 2px solid currentColor;
   text-decoration: none;
   border-radius: 25px;
   transition: background-color 0.3s ease;
 }
 
 .see-project-btn:hover {
-  background-color: #5a6f98;
+  background-color: rgba(127, 135, 167, 0.15);
+}
+
+.project-card.reversed .see-project-btn {
+  color: var(--color-pink);
+}
+
+.project-card.reversed .see-project-btn:hover {
+  background-color: rgba(247, 195, 201, 0.2);
 }
 
 @media (max-width: 768px) {
   .project-card,
   .project-card.reversed {
     flex-direction: column;
+    align-self: stretch;
+  }
+
+  .project-card::after,
+  .project-card.reversed::after {
+    left: 2rem;
+    right: auto;
+    width: 65%;
   }
 
   .project-image {
