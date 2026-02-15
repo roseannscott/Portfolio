@@ -6,9 +6,6 @@ function Home() {
   return (
     <div className="home">
       <section className="hero">
-        <div className="hero-background">
-          <span className="watermark">RS</span>
-        </div>
         <div className="portfolio-intro">
           <h1>Portfolio</h1>
           <p className="intro">
