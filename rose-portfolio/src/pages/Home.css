@@ -114,9 +114,13 @@
   color: #333;
 }
 
-.projects-section h2 .highlight {
-  color: #ffb6c1;
+.highlight-pink {
+  color: var(--color-pink);
 }
+.highlight-blue {
+  color: var(--color-blue);
+}
+
 
 .projects-grid {
   display: flex;
